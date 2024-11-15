@@ -1,7 +1,5 @@
 import Image from "next/image";
 import "../style/hero.css";
-import { profile } from "node:console";
-// import image from  "@/app/public/profile.jpg";
 
 
 
@@ -12,7 +10,7 @@ function Hero () {
        <div className="header-boxes-container">
         {/*left*/}
         <div>
-        <Image src={"/profile.jpg"}alt="profile" height={200} width={200} />
+        <Image src="/images/profile.jpg"alt="profile" height={200} width={200}></Image>
         </div>
         {/*right*/}
         <div className="hero-right-div">
